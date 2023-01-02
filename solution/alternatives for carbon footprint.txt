@@ -1,0 +1,50 @@
+{
+  "totalFamilyMembers": {
+    "Segregate energy usage per person by setting room usage limits in the house": 40,
+    "Save water and share water resources by using a common dishwasher and washing machine": 20,
+    "consumption of clothing ,naturally or minimilism non woven fabric -materialistic": 15,
+    "Enroll in a  Annual energy audit Program ": 1,
+    "reduce your driving and flying": 50
+  },
+  "Effective home": {
+    "they use clever designs and hacks that create multipurpose spaces": 40,
+    "Live in urban areas as comapred to suburban": 20,
+    "Reuse buildings instead of constructing new ones": 15,
+    " Insulate your home ": 10,
+    "Have sensors to detect exessive energy usage ": 50
+  },
+  "foodIntake": {
+    "Full service of restuarants ,prepare more home cooked food ": 40,
+    "Eat less processed meat and food(Dairy and beef)": 20,
+    "Invole a plant based diet ": 15,
+    " Prefer localy produced food rather than global ": 1,
+    "Grow your own garden ": 50
+  },
+  "waterConsumption": {
+    "Replace old inefficient water appliances with energy-efficient ones": 40,
+    "solar panel installation": 20,
+    "Repairing  household leaks": 15,
+    "using appliances such as washing machines only when needed": 1,
+    "Installing water saving equipments in house ": 50
+  },
+  "householdPurchases": {
+    "buy more second hand stuff whereever feasible ": 40,
+    "Purchase items with less packaging": 20,
+    " Invest in buying lighter goods than bulkier ones ": 15,
+    "buying recyclable products": 1,
+    "Use non-toxic household products": 50
+  },
+  "wasteConsumption": {
+    "Effective Techniquies of segregation, composting, and recycling": 40,
+    "install sensors, and actuators used as well as control and autonomy related issues in the area of automated sorting and recycling of source-separated municipal solid waste.": 20,
+    "Keep a track chart of each individual of waste consumed": 15,
+    "Go Paperless": 1,
+    "Invest in Durable, Sustainable Products": 50
+  },
+  "recycleCheck": {
+    "Buy Recycleable products by reading the  green labels ": 40,
+    "Join a community program to learn about recycling": 20,
+    Sell or donate used products on sites ": 15,
+   
+  }
+}

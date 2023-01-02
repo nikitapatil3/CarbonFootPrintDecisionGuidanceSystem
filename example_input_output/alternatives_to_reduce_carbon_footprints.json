@@ -1,0 +1,28 @@
+{ 
+    "Electricity":{
+       "Turn off Lights during Daylight": 40,
+       "Unplug Small Appliances": 20,
+       "Replace air filters": 15,
+       "Cool off with ceilings fans": 1,
+       "Install LED Light bulbs": 50
+    },
+    "Fuel": {
+		"Use PublicTransport": 100,
+		"Use Hybrid Car": 40,
+		"Use Electric Car": 80,
+		"Use Electric Scooter": 90,
+		"Use Bicycle": 95
+    },
+    "Propane":{
+		"Seal Air Leaks": 30,
+		"Programmable Thermostat": 10,
+		"Sensible Equipment Upgrades": 33,
+		"Install low-flow showerheads and aerators": 50
+    },
+    "NaturalGas":{
+		"Turn Down Your Thermostat": 10,
+		"Turn Down the Tank by 10 degrees": 5,
+		"Make use of ceiling fans": 3,
+		"Install an Energy Star-certified water heater, or a tankless water heater": 10
+    }
+}

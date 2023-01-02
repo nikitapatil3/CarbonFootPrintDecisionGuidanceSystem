@@ -1,0 +1,54 @@
+{
+  "householdFamilyShare": {
+    "Segregate energy usage per person by setting room usage limits in the house": 40,
+    "Save water and share water resources by using a common dishwasher and washing machine": 20,
+    "Consumption of clothing to be done naturally or minimalism by using non-woven fabric materials": 15,
+    "Enroll in the Annual Energy Audit Program": 1,
+    "Reduce driving or travelling as needed": 50,
+    "Performing regular vehicle maintenance": 20
+  },
+  "homeSize": {
+    "Refactor using clever designs and hacks that create multipurpose spaces": 40,
+    "Live in urban areas as comapred to suburban areas": 20,
+    "Reuse buildings instead of constructing new ones": 15,
+    "Regular Home Insulation": 10,
+    "Install sensors to detect Excessive energy usage": 50,
+    "Replacing incandescent lights with CFLs": 20
+  },
+  "foodIntake": {
+    "Prepare home-cooked food more often": 40,
+    "Eat less processed meat and food(Dairy and beef)": 20,
+    "Start a plant-based diet": 15,
+    "Prefer locally produced food rather than global": 1,
+    "Cultivate own fruits and vegetables in your own garden": 50
+  },
+  "waterConsumption": {
+    "Replace old inefficient water appliances with energy-efficient ones": 40,
+    "Solar panel Installation": 20,
+    "Perform regular household repair leak checks": 15,
+    "Use appliances effectively only when needed": 1,
+    "Install water-preserving equipments in the house": 50
+  },
+  "householdPurchases": {
+    "Buy more second-hand stuff whenever feasible": 40,
+    "Purchase items with less packaging": 20,
+    "Invest in buying lighter goods than bulkier ones": 15,
+    "Buying recyclable products": 1,
+    "Use non-toxic household products": 5,
+    "Take a reusable bag to the store and buy reliable quality products": 10
+  },
+  "wasteConsumption": {
+    "Use effective Techniques of segregation, composting, and recycling": 40,
+    "Install sensors and actuators": 20,
+    "Control any autonomy related issues in the area of automated sorting and recycling of source-separated municipal solid waste": 15,
+    "Go Paperless": 1,
+    "Invest in Durable and Sustainable Products": 5,
+    "Transforming packaging materials into art projects or creative containers for better use": 15
+  },
+  "recycleCheck": {
+    "By recyclable products by ensuring to check for the green label on them before purchasing": 40,
+    "Join a community program to learn about how to recycle on your own": 20,
+    "Sell or donate products that you do not use anymore": 15,
+    "Segregate recycling plastic, glass, magazines, newspapers, and aluminum and steel cans": 25
+  }
+}

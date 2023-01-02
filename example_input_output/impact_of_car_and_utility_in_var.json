@@ -1,0 +1,37 @@
+{
+    "type": "impact of car and utility",
+    "totalFamilyMembers" : 4,
+    "carType": "hybrid",
+    "utilityUsage": {
+        "Electricity": {
+            "usage": {"dgalType": "int?"},
+            "minUsage": 150
+        },
+        "NaturalGas": {
+            "usage": {"dgalType": "int?"},
+            "minUsage": 100
+        },
+        "Propane": {
+            "usage": {"dgalType": "int?"},
+            "minUsage": 30
+        },
+        "Fuel": {
+            "usage": {"dgalType": "int?"},
+            "minUsage": 8
+        }
+    },
+    "co2Emission": {
+        "Fuel": 19.6,
+        "NaturalGas": 11.7,
+        "Propane": 13,
+        "Electricity": 0.994,
+        "car": {
+            "hybrid": 4000,
+            "electric": 4000,
+            "compact": 10000,
+            "economy": 10000,
+            "medium": 18000,
+            "large": 24000
+        }
+    }
+}

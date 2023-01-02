@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Carbon Footprint Optimizer</title>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px;
+        }
+
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
+
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {
+            margin-left: 120px;
+        }
+
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0;
+            }
+        }
+
+        body {
+            margin: 0px;
+            font-family: Calibri, sans-serif;
+            background-color: lightgrey;
+        }
+
+        /* 
+        h1 elements in #FFCC33,
+        heading at the top of the page should use text-shadows, 
+        inside a rectangular box using #006633 solid border of 5px width */
+        h1 {
+            color: #006633;
+            text-shadow: 2px 2px 2px dimgrey;
+            border: 5px solid #006633;
+            background-color: #FFCC33;
+            box-shadow: 5px 5px 5px dimgrey;
+        }
+
+
+        /* 
+        style class that could
+        be used to for any element on the page */
+        .padding {
+            padding-left: 10px;
+        }
+
+        /* end of mandatory css */
+
+        /* header & footer */
+        header {
+            background-color: #006633;
+            font-size: 30px;
+            font-weight: bold;
+            color: #FFCC33;
+            text-align: left;
+            padding: 20px;
+        }
+
+        header a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        header span {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+
+        footer {
+            background-color: #006633;
+            color: #FFCC33;
+            text-align: right;
+            padding: 20px;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+
+        footer a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        footer address {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+
+        .logo img {
+            vertical-align: middle;
+            width: 110px;
+        }
+
+        a.logo:hover {
+            display: inline-block;
+            vertical-align: middle;
+            background-color: #FFCC33;
+        }
+
+        /* end of header & footer */
+
+
+        .container {
+            margin: 20px 100px 20px 100px;
+            box-shadow: 0 4px 8px 0 #FFCC33;
+            transition: 0.3s;
+            padding: 20px;
+            background-color: lightgoldenrodyellow;
+            font-size: large;
+        }
+
+        .surveysection {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+
+        /* survey form */
+        table tr td {
+            padding: 5px;
+        }
+
+        .required {
+            color: red;
+            font-weight: normal;
+        }
+        .mod {
+          width: 600px;
+          display: block;
+          margin: auto;
+          text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+</head>
+
+
+<body style="text-align:center">
+  <header style="text-align: center">
+    <span>User Preference</span>
+</header>
+  <div class="container">
+    <p class="p2">
+      <h3>
+        <H1> Carbon Footprint Optimization Recommender
+      </h3>
+      </H1>
+    </p>
+  
+  <form method="post" action="selectOption">
+    <label for="way">Select an option to optimize your carbon footprint:<span class="required">*</span></label>
+    <select id="way" name="way" required class="mod">
+    <option value="">--Select--</option>
+    <option value = "model1">Calculating the impact of your Car and Utilities</option>
+    <option value = "model2">Calculating the impact of your Footprint Points</option>
+    </select>
+    <br><br>
+    <input type="submit">
+    <hr/>
+  </div>
+    </div>
+    <footer style="text-align: center">
+        <address>
+            <b>CS787 - Decision Guidance Systems</b><br />
+            Final Project done by<br />
+            Jagruthi Ashwath,<br />
+            Mohammed Wasef Mohiuddin and,<br />
+            Nikita Pradeep Patil<br />
+        </address>
+    </footer>
+  </form>

@@ -1,0 +1,100 @@
+{
+    "type": "impact of points",
+    "householdFamilyShare": "4",
+    "homeSize": "medium",
+    "foodIntake": "meatFew",
+    "waterConsumption": "5",
+    "householdPurchases": "5",
+    "wasteConsumption": "3",
+    "recycleCheck": "Sometimes",
+    "pointsUsage": {
+        "householdFamilyShare": {
+            "usage": 0,
+            "minUsage": 6
+        },
+        "homeSize": {
+            "usage": 0,
+            "minUsage": 7
+        },
+        "foodIntake": {
+            "usage": 0,
+            "minUsage": 8
+        },
+        "waterConsumption": {
+            "usage": 0,
+            "minUsage": 1
+        },
+        "householdPurchases": {
+            "usage": 0,
+            "minUsage": 6
+        },
+        "wasteConsumption": {
+            "usage": 0,
+            "minUsage": 20
+        },
+        "recycleCheck": {
+            "usage": 0,
+            "minUsage": 12
+        }
+    },
+    "co2Emission": {
+        "householdFamilyShare": {
+            "1": 14,
+            "2": 12,
+            "3": 8,
+            "4": 6,
+            "5": 4,
+            "limit": 2
+        },
+        "homeSize": {
+            "large": 10,
+            "medium": 7,
+            "small": 4,
+            "apartment": 2
+        },
+        "foodIntake": {
+            "meatDaily": 10,
+            "meatFew": 8,
+            "vegetarian": 4,
+            "vegan": 2,
+            "frozen": 12
+        },
+        "waterConsumption": {
+            "limit": 3,
+            "9": 2,
+            "8": 2,
+            "7": 2,
+            "6": 2,
+            "5": 2,
+            "4": 2,
+            "3": 1,
+            "2": 1,
+            "1": 1,
+            "0": 0
+        },
+        "householdPurchases": {
+            "limit": 10,
+            "7": 8,
+            "6": 8,
+            "5": 8,
+            "4": 6,
+            "3": 6,
+            "2": 4,
+            "1": 4,
+            "0": 2
+        },
+        "wasteConsumption": {
+            "limit": 50,
+            "4": 50,
+            "3": 40,
+            "2": 30,
+            "1": 20,
+            "0": 5
+        },
+        "recycleCheck": {
+            "Everytime": 0,
+            "Sometimes": 12,
+            "Never": 24
+        }
+    }
+}
